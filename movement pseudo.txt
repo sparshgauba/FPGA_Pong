@@ -1,0 +1,62 @@
+reg_reg [8:0] l_paddle; //vert displacement of center of paddle from top
+reg_reg [8:0] r_paddle;
+
+//displacements of ball (0,0) at top left corner
+reg [8:0] ball_y;
+reg [9:0] ball_x;  
+reg [4:0] ball_run; // <0 for moving left 
+reg [4:0] ball_rise; // <0 for moving up 
+
+//movement of paddles 
+if joystick down and not at bottom of screen (need size of paddle)
+	paddle++
+if joystick up and not at top of screen
+	paddle -- 
+	
+//movement of ball 
+if left of center 
+	if (ball_run < 0) //moving left, towards paddle/goal
+		if (ball_x - 1 == L_PADDLE_X && ball_y <= l_paddle + 20 && ball_y >= l_paddle - 20) //along paddle axis
+			//center of paddle 
+			if (ball_y <= l_paddle + 10 && ball_y > l_paddle - 10)
+				ball_run = 1;
+				ball_rise = 0;
+			//top portion of paddle 
+			if (ball_y <= l_paddle - 20 && ball_y >= l_paddle - 10)
+				ball_run = 1;
+				ball_rise = 3; //or something like this
+			//bottom portion of paddle 
+			if (ball_y <= l_paddle + 20 && ball_y >= l_paddle + 10)
+				ball_run = 1;
+				ball_rise = -3; 
+
+else if right of center 
+	if (ball_run > 0 && (ball_x - 1 == R_PADDLE_X && ball_y <= r_paddle + 20 && ball_y >= r_paddle - 20)) //moving right and will hitting paddle 
+		//center of paddle 
+		if (ball_y <= l_paddle + 10 && ball_y > l_paddle - 10)
+			ball_run = -1;
+			ball_rise = 0;
+		//top portion of paddle 
+		if (ball_y <= l_paddle - 20 && ball_y >= l_paddle - 10)
+			ball_run = -1;
+			ball_rise = 3; //or something like this
+		//bottom portion of paddle 
+		if (ball_y <= l_paddle + 20 && ball_y >= l_paddle + 10)
+			ball_run = -1;
+			ball_rise = -3; 
+
+if (ball_x > left_wall && ball_x < right_wall)
+	//standard movement 
+	ball_y <= ball_y + ball_rise;
+	ball_x <= ball_x + ball_run;
+else
+	//scored a point
+	do something 
+
+theta_k_prev = 180.0f - rad_prev_pi;
+		
+
+	
+	
+
+	

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\clockdiv.v" Line 41: Result of <arg fmt="%d" index="1">19</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">18</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\NERP_demo_top.v" Line 55: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">seg</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">8</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 66: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 75: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 87: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 88: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 115: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 124: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">19</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 133: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 134: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 139: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 140: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 145: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\152\Downloads\NERP_demo_3-8-2017\vga640x480.v" Line 146: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">seg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">U2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seg_4&gt; &lt;seg_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">seg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">segdisplay</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seg_4&gt; &lt;seg_5&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">rise_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">run_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">vga640x480</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">an_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">segdisplay</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seg_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">an_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">segdisplay</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seg_3&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">U3/cnt_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">NERP_demo_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U3/cnt_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NERP_demo_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U3/b_clock&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

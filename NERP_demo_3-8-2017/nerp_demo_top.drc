@@ -1,0 +1,15 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Mar 08 13:56:02 2017
+
+drc -z NERP_demo_top.ncd NERP_demo_top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U3/GND_6_o_GND_6_o_OR_50_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U3/ballx[9]_GND_6_o_OR_51_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
